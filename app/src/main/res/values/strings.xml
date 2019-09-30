@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Primosmoveis</string>
+    <string name="account_name">Nome</string>
+    <string name="password">Password</string>
+    <string name="password_hint">*******</string>
+    <string name="forgot_your_login_info">Esqueci minha Senha</string>
+    <string name="sign_in">Entrar</string>
+    <string name="remember_my_password">Lembrar minha Senha</string>
+    <string name="username">Insira seu nome</string>
+    <string name="action_voltar">Voltar</string>
+    <string name="cadastrar_cliente">Cadastrar Cliente</string>
+
+</resources>

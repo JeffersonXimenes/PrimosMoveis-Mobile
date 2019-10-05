@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="br.com.fake.steam.LoginActivity">
+
+        <ImageView
+            android:layout_width="310dp"
+            android:layout_height="202dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:src="@mipmap/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="@string/account_name"
+            android:textColor="#EEE" />
+
+        <EditText
+            android:id="@+id/insira_nome"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/login_edittext_bg"
+            android:drawableLeft="@drawable/ic_action_user"
+            android:hint="@string/username"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="#CCC" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/password"
+            android:textColor="#EEE" />
+
+        <EditText
+            android:id="@+id/insira_senha"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/login_edittext_bg"
+            android:drawableLeft="@drawable/ic_action_lock"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="#CCC" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/remember_my_password"
+            android:textColor="@color/colorAccent"
+            android:textSize="6pt"
+            android:theme="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/login_button_bg"
+            android:text="@string/sign_in"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+</ScrollView>

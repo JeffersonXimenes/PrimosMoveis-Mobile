@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Primos Móveis</string>
+    <string name="account_name">NOME</string>
+    <string name="password">PASSWORD</string>
+    <string name="password_hint">*******</string>
+
+    <string name="sign_in">Entrar</string>
+    <string name="remember_my_password">LEMBRAR DADOS</string>
+    <string name="username">Insira seu nome</string>
+    <string name="action_voltar">Voltar</string>
+    <string name="cadastrar_cliente">CADASTRAR CLIENTE</string>
+    <string name="dados">DADOS CADASTRAIS</string>
+    <string name="confirmar_Cadastro">CONFIRMAR CADASTRO</string>
+    <string name="nome_cliente">NOME CLIENTE</string>
+    <string name="telefone_cliente">1º TELEFONE</string>
+    <string name="telefone_cliente2">2º TELEFONE</string>
+    <string name="email_cliente">EMAIL</string>
+    <string name="interesse_cliente">PRINCIPAIS INTERESSES</string>
+    <string name="action_config">CONFIGURAÇÕES</string>
+    <string name="action_back">VOLTAR</string>
+
+</resources>

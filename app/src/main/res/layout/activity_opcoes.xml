@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".opcoesActivity">
+    <include layout="@layout/toolbar"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:padding="16dp">
+
+
+        <Button
+            android:id="@+id/cadastrar_cliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_edittext_bg"
+            android:layout_margin="@android:dimen/app_icon_size"
+            android:textColor="@color/colorAccent"
+            android:text="Cadastrar cliente" />
+
+        <Button
+            android:id="@+id/sair_cliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@android:dimen/app_icon_size"
+            android:background="@drawable/login_edittext_bg"
+            android:textColor="@color/colorAccent"
+            android:text="Sair cliente" />
+
+    </LinearLayout>
+</LinearLayout>

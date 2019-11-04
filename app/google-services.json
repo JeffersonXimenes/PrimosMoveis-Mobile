@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "280857086215",
+    "firebase_url": "https://primosmoveis-f3b7f.firebaseio.com",
+    "project_id": "primosmoveis-f3b7f",
+    "storage_bucket": "primosmoveis-f3b7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280857086215:android:509f4499d2e78db87cdda2",
+        "android_client_info": {
+          "package_name": "com.example.primosmoveis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280857086215-b0lb01csl98of2kvvv0i6bc4nrkfd68t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHPa76Uf4mmUaFT5aMgNmvyWHVz_DzmQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280857086215-b0lb01csl98of2kvvv0i6bc4nrkfd68t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

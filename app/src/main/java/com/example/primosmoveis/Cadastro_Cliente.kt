@@ -9,7 +9,7 @@ import org.json.JSONArray
 import java.net.URL
 
 object Cadastro_Cliente {
-    val host = "http://jeffersonximenes.pythonanywhere.com/"
+    val host = "https://jeffersonximenes.pythonanywhere.com/"
     val TAG = "Primosmoveis"
 
     fun getCliente(context: Context): List<Cadastro> {
